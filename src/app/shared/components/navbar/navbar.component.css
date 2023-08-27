@@ -1,0 +1,19 @@
+.section {
+    height: 80px;
+}
+
+nav {
+    color: #000;
+    font-family: var(--font-family-reqular);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+nav:hover {
+    color: var(--color1);
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}

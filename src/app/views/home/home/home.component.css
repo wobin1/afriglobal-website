@@ -1,0 +1,39 @@
+
+.section {
+    background-color: var(--bg-color1);
+}
+
+.about {
+    margin-top: 5rem;
+}
+
+.section-title {
+    color: #000;
+    font-family: var(--font-family-regular);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.business-units  {
+    margin-top: 65px;
+    background: #FFFEF6;
+}
+
+.units {
+    height: 70vh;
+}
+
+.national-footprint {
+    margin-top: 60px;
+    background-color: white;
+}
+
+.global-footprint {
+    margin-top: 60px;
+    background-color: #FFFEF6;
+}

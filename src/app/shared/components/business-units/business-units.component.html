@@ -1,0 +1,25 @@
+<div class="section-layout" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="0.5rem">
+
+    <div class="next" (click)="next()">
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+              </svg>
+        </span>
+    </div>
+    <div fxLayout="column" fxLayoutAlign="center center" *ngFor="let row of render">
+        <div class="section" fxLayout="column" fxLayoutAlign="center center">
+            <div class="logo">
+                <img src={{row.logo}} alt="">
+            </div>
+    
+            <div class="title">{{row.companyName}}</div>
+    
+            <div class="detail">
+                {{row.detail}}
+            </div>
+    
+            <div class="button">Visit Website</div>
+        </div>
+    </div>
+</div>

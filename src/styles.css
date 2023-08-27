@@ -1,4 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: 'Poppins';
+    src: url('/assets/fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins-bold';
+    src: url('/assets/fonts/poppins/Poppins-bold.ttf');
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+:root {
+    --color1: hsla(25, 90%, 59%, 1);
+    --color2: hsla(25, 90%, 69%, 1);
+    --color3: hsla(25, 90%, 79%, 1);
+    --color4: hsla(25, 90%, 89%, 1);
+    --color5: hsla(25, 90%, 96%, 1);
+ 
+    --soft-magenta: hsl(300, 69%, 71%);
+
+
+    --bg-color1: #F2F2F2;
+    --btn-color: #D9D9D9;
+
+    --size1: 12px;
+    --size2: 16px;
+    --size3: 24px;
+    --size4: 32px;
+    --size5: 40px;
+    --size6: 48px;
+    --size7: 56px;
+
+    --font-size: 12px;
+    --font-size1: 14px;
+    --font-size2: 16px;
+    --font-size3: 18px;
+    --font-size4: 20px;
+    --font-size5: 22px;
+    --font-size6: 24px;
+    --font-size7: 26px;
+    --font-size8: 36px;
+    --font-size9: 46px;
+
+    --font-family-reqular: 'Poppins';
+    --font-family-bold: 'Poppins-bold';
+    --font-family-sans: 'Open Sans';
+
+    --font-weight-normal: 400;
+    --font-weight-bold: 600; 
+    --font-weight-extra-bold: 800;
+
+}
+

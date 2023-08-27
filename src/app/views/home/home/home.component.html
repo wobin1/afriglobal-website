@@ -1,0 +1,80 @@
+<div class="section-layout" fxFlex="100%" fxLayout="row">
+  <div class="section" fxFlex="100%" fxLayout="column">
+    <div class="hero">
+      <app-hero></app-hero>
+    </div>
+
+    <div class="about" fxFlex="100%" fxLayoutAlign="center center">
+      <div fxFlex="80%" fxLayout="column" fxLayoutGap="60px">
+
+
+        <app-two-section-card
+        title="About Us"
+          image="/assets/images/img/img1.png"
+          detail="The flagship company – Nagode Industries, which started as the
+                            brainchild of a visionary man Mr B. B. Garg, has since grown into a
+                            diversified entity with about five dynamic and fast growing competent
+                            organization. Each organization has developed into the market leader or
+                            one of the leading players in its own field..."
+          [button]="true"
+          [inverse]="false"
+        >
+        </app-two-section-card>
+
+        <app-two-section-card
+        title="Businesses"
+          image="/assets/images/img/img2.png"
+          detail="Afriglobal Group businesses are supported by an 
+          integrated quality management and strategy creation system 
+          that ensures every aspect of its operation. By strategically 
+          positioning quality management…"
+          [button]="true"
+          [inverse]="true"
+        >
+        </app-two-section-card>
+
+        <div class="section-title">
+            Business Units
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="business-units" fxFlex="100%" fxLayoutAlign="center center">
+        <div class="units" fxFlex="80%" fxLayout="row" fxLayoutGap="" fxLayoutAlign="center center">
+            
+            <div class="cards" >
+                <app-business-units></app-business-units>
+            </div>
+        </div>
+      </div>
+
+
+    <div class="national-footprint">
+        <app-footprint title="NATIONAL FOOTPRINT"
+                        detail="Afriglobal Group activities are present 
+                                throughout Nigeria with key strategic locations 
+                                in Lagos, Abuja, Kano, Aba and Onitsha."
+                        image="/assets/images/img/maps/1.png">
+                        
+        </app-footprint>
+    </div>
+
+    <div class="global-footprint">
+        <app-footprint title="GlOBAL FOOTPRINT"
+                        detail="Over the years we have been able to expand our activities 
+                                from Nigeria to Africa and even beyond Africa. In Africa 
+                                we are present in Cameroun, Ghana, Djibouti, Ethiopia, 
+                                Tanzania, Egypt. Beyond Africa, we are also present in 
+                                Dubai (UAE), India, China and South Korea. Although now a 
+                                global entity, Afriglobal group has remained true to its 
+                                African origin."
+                        image="/assets/images/img/maps/2.png">
+                        
+        </app-footprint>
+    </div>
+
+    
+  </div>
+</div>
