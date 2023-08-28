@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  sidenav:boolean=false;
+
+  toggle(){
+    this.sidenav = !this.sidenav;
+  }
+
+  closeToggle(){
+    this.sidenav = false;
+  }
+
 }

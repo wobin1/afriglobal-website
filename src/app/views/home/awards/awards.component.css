@@ -1,0 +1,34 @@
+.next, .prev {
+    height: 40px;
+    width: 60px;
+    /* border-radius: 100%; */
+    background-color: var(--btn-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next:active, .prev:active {
+    transform: scale(0.95);
+    opacity: 0.9;
+}
+
+.section-layout {
+    padding: 55px 0 55px 0;
+}
+
+.title {
+    padding: 70px 0px 70px 0px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    background-color: var(--bg-color1);
+}
+
+.next-button {
+    margin-bottom: 1rem;
+}

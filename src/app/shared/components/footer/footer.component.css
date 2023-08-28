@@ -1,0 +1,137 @@
+.section-layout {
+    height: 100%;
+}
+
+.section {
+    background-color: #222;;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.title {
+    margin-bottom: 1rem;
+    color: #FFF;
+    font-family: var(--font-family-regular);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 2px;
+}
+
+p, nav {
+    color: var(--second-text-color, #FFF);
+    /* link */
+    font-family: var(--font-family-regular);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 1px;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.business-units {
+    padding-top: 0.5rem;
+    cursor: pointer;
+    padding-left: 0rem;
+}
+
+nav:hover {
+    background-color: #121212;
+}
+
+nav:active {
+    transform: scale(0.98);
+}
+
+.image {
+    margin-bottom: 1rem;
+}
+
+.footer-base {
+    height: 74px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+.footer-base span {
+    color: var(--second-text-color, #737373);
+    font-family: var(--font-family-normal);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.social-icons span {
+    padding-right: 1rem;
+    color: var(--secondary-color);
+    
+}
+
+.subscription {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #FFF;
+    font-family: var(--font-family-regular);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form {
+    width: 250px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #FFF9F9;
+}
+
+input {
+    width: 200px;
+    background: transparent;
+    border: none;
+}
+
+@media(min-width:450px){
+    .footer-base {
+        height: 54px;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10%;
+    }
+
+    
+}
+
+
+@media(min-width:850px){
+    .footer-base {
+        height: 44px;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10%;
+    }
+
+    .business-units {
+        padding-top: 0.5rem;
+        cursor: pointer;
+        padding-left: 2rem;
+    }
+}

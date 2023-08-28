@@ -10,6 +10,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { TwoSectionCardComponent } from './components/two-section-card/two-section-card.component';
 import { BusinessUnitsComponent } from './components/business-units/business-units.component';
 import { FootprintComponent } from './components/footprint/footprint.component';
+import { MaterialModule } from '../material/material.module';
 
 
 
@@ -26,12 +27,14 @@ import { FootprintComponent } from './components/footprint/footprint.component';
   imports: [
     CommonModule,
     RouterModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MaterialModule
   ],
   exports: [
     TwoSectionCardComponent,
     BusinessUnitsComponent,
-    FootprintComponent
+    FootprintComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }

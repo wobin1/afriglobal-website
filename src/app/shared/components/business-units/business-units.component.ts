@@ -35,9 +35,31 @@ export class BusinessUnitsComponent {
   ]
 
   render = [this.companies[1], this.companies[2], this.companies[3]]
+  mobileRender = this.companies[this.index]
 
   ngOnInit(){
 
+  }
+
+  mobileNext(){
+    if(this.index >= 3){
+      this.index=0;
+      this.mobileRender=this.companies[this.index]
+    }else {
+      this.index += 1;
+      this.mobileRender=this.companies[this.index]
+    }
+  }
+
+  mobilePrev(){
+    if(this.index <= 0){
+      this.index=3;
+      this.mobileRender=this.companies[this.index]
+    }else {
+      this.index -= 1;
+      this.mobileRender=this.companies[this.index]
+
+    }
   }
 
   next(){

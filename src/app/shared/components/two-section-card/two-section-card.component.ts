@@ -12,6 +12,4 @@ export class TwoSectionCardComponent {
   @Input() button!:boolean;
   @Input() inverse!:boolean;
 
-
-
 }

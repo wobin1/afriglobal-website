@@ -5,17 +5,17 @@
     </div>
 
     <div class="about" fxFlex="100%" fxLayoutAlign="center center">
-      <div fxFlex="80%" fxLayout="column" fxLayoutGap="60px">
+      <div fxFlex="80%" fxFlex.sm="90%" fxFlex.xs="95%" fxLayout="column" fxLayoutGap="60px">
 
 
         <app-two-section-card
         title="About Us"
           image="/assets/images/img/img1.png"
-          detail="The flagship company – Nagode Industries, which started as the
-                            brainchild of a visionary man Mr B. B. Garg, has since grown into a
-                            diversified entity with about five dynamic and fast growing competent
-                            organization. Each organization has developed into the market leader or
-                            one of the leading players in its own field..."
+          detail="Afriglobal Group is a fast-growing Nigerian conglomerate with 
+                  interests in chemicals distribution, logistics, and healthcare.The 
+                  flagship company – Nagode Industries, which started as the brainchild 
+                  of a visionary man Mr B. B. Garg, has since grown into a diversified 
+                  entity with about five dynamic and fast growing competent organization. "
           [button]="true"
           [inverse]="false"
         >
@@ -27,7 +27,7 @@
           detail="Afriglobal Group businesses are supported by an 
           integrated quality management and strategy creation system 
           that ensures every aspect of its operation. By strategically 
-          positioning quality management…"
+          positioning quality management."
           [button]="true"
           [inverse]="true"
         >
@@ -42,7 +42,7 @@
     </div>
 
     <div class="business-units" fxFlex="100%" fxLayoutAlign="center center">
-        <div class="units" fxFlex="80%" fxLayout="row" fxLayoutGap="" fxLayoutAlign="center center">
+        <div class="units" fxFlex="80%" fxFlex.sm="90%" fxFlex.xs="95%" fxLayout="row" fxLayoutGap="" fxLayoutAlign="center center">
             
             <div class="cards" >
                 <app-business-units></app-business-units>
@@ -75,6 +75,18 @@
         </app-footprint>
     </div>
 
+    <div class="awards-recognition" fxFlex="100%" fxLayoutAlign="center center">
+      <div class="awards" fxFlex="80%" fxFlex.sm="90%" fxFlex.xs="95%" fxLayout="row" fxLayoutGap="" fxLayoutAlign="center center">
+          
+          <div class="cards" >
+              <app-awards></app-awards>
+          </div>
+      </div>
+    </div>
+
+    <div class="footer item">
+      <app-footer></app-footer>
+  </div>
     
   </div>
 </div>

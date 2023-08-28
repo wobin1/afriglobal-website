@@ -4,13 +4,13 @@
   fxFlex="100%"
   fxLayoutAlign="center center"
 >
-  <div *ngIf="inverse" class="section " fxLayout="row-reverse wrap" fxFlex="100%" fxLayoutGap="10%">
-    <div class="image-section" fxLayout="row" fxFlex="45%" >
+  <div *ngIf="inverse" class="section " fxLayout="row-reverse wrap" fxFlex="100%" fxLayoutGap="10%" fxLayoutGap.xs="0%">
+    <div class="image-section" fxLayout="row" fxFlex="45%" fxFlex.sm="45" fxFlex.xs="100%" >
       <div class="image">
         <img src={{image}} alt="" />
       </div>
     </div>
-    <div class="detail-section" fxFlex="45%">
+    <div class="detail-section" fxFlex="45%" fxFlex.sm="45" fxFlex.xs="100%">
         <div class="title">{{title}}</div>
       <div class="detail mt-2" fxLayoutAlign="start start">
         <p>
@@ -21,13 +21,13 @@
     </div>
   </div>
 
-  <div *ngIf="!inverse" class="section " fxLayout="row wrap" fxFlex="100%" fxLayoutGap="10%">
-    <div class="image-section" fxLayout="row" fxFlex="45%" >
+  <div *ngIf="!inverse" class="section " fxLayout="row wrap" fxFlex="100%" fxLayoutGap="10%" fxLayoutGap.xs="0%" >
+    <div class="image-section" fxLayout="row" fxFlex="45%" fxFlex.sm="45" fxFlex.xs="100%" >
       <div class="image">
         <img src={{image}} alt="" />
       </div>
     </div>
-    <div class="detail-section" fxFlex="45%">
+    <div class="detail-section" fxFlex="45%" fxFlex.sm="45" fxFlex.xs="100%">
         <div class="title">{{title}}</div>
       <div class="detail mt-2" fxLayoutAlign="start start">
         <p>

@@ -1,3 +1,6 @@
+.section-layout {
+    margin-top: 80px;
+}
 
 .section {
     background-color: var(--bg-color1);
@@ -36,4 +39,13 @@
 .global-footprint {
     margin-top: 60px;
     background-color: #FFFEF6;
+}
+
+.awards-recognition {
+    /* margin: 100px 0px 100px 0; */
+    background-color: white;
+}
+
+.footer {
+    margin-top: 70px;
 }

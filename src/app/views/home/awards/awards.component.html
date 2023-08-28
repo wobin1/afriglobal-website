@@ -1,10 +1,48 @@
-<div class="awards">
-    <app-two-section-card title="2019" 
-                            detail="Afriglobal Group ( Formerly Nagode group) a conglomerate 
-                                with business interests in the chemicals distribution, 
-                                Logistics and healthcare industries has been identified 
-                                as one of London Stock Exchange Group’s Companies to 
-                                Inspire Africa 2019. The report is a celebration of Africa’s 
-                                and most dynamic growth businesses.">
-    </app-two-section-card>
+
+<div class="title">
+    RECOGNITION AND AWARDS
+</div>
+
+<div class="section-layout">
+    <div class="next-button" fxLayout="row" fxHide fxShow.sm fxShow.xs fxLayoutGap="1rem" fxLayoutAlign="center center">
+        <div class="next" (click)="next()" >
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                  </svg>
+            </span>
+    
+        </div>
+
+        <div class="next" (click)="prev()" >
+    
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            </span>
+    
+        </div>
+    </div>
+    <div class="section" fxLayout="row" 
+                            fxLayoutAlign="center center" 
+                            fxLayoutGap="2rem"
+                            >
+        <span class="next" fxShow fxHide.sm fxHide.xs (click)="next()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+              </svg> 
+        </span>
+        <div class="awards">
+            <app-two-section-card title={{award.year}}
+                                    detail={{award.detail}}
+                                    image={{award.image}}>
+            </app-two-section-card>
+        </div>
+        <span class="prev" fxShow fxHide.sm fxHide.xs  (click)="prev()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+        </span>
+    </div>
 </div>
