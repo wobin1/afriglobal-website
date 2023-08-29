@@ -3,6 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainComponent } from './shared/layout/main/main.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
   {path:'', component: MainComponent, children:[
     {path:"", loadChildren: ()=> import('./views/home/home.module').then(m => m.HomeModule)},
     {path:"", loadChildren: ()=> import('./views/about/about.module').then(m => m.AboutModule)}
