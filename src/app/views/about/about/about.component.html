@@ -6,8 +6,8 @@
         </div>
 
 
-        <div class="who-we-are" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
-            <div fxFlex="90%">
+        <div class="who-we-are item" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+            <div fxFlex="85%">
                 <app-about-section-card title="Who we are"
                                         image="/assets/images/img/img4.png"
                                         detail="Afriglobal Group is a conglomerate with business interests 
@@ -15,27 +15,26 @@
                                         With an impressing turnover of over USD200m per annum, it is one of 
                                         the fastest growing business concerns in Nigeria."
                                         [inverse]=true
-                                        [button]=false>
+                                        [button]=false
+                                        [video]=true>
 
                 </app-about-section-card>
             </div>
         </div>
 
 
-        <div class="mission-vision" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
-            <div fxFlex="90%" fxLayout="column" fxLayoutGap="2%">
-              <div class="cards" fxLayout="row wrap" fxFlex="100%" fxLayoutGap="2%" fxLayoutAlign="center start">
-                <div fxFlex="49%">
+        <div class="mission-vision item" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+            <div fxFlex="85%" fxLayout="column" fxLayoutGap="2%">
+              <div class="cards" fxLayout="row wrap" fxFlex="100%" fxLayoutGap="2%" fxLayoutAlign="center start" fxLayoutAlign.xs="center center">
+                <div class="vision" fxFlex="49%" fxFlex.sm="49%" fxFlex.xs="100%">
                     <app-mission-card title="Vision"
                                 detail="An inspirational role model African institution that is at the 
                                         forefront of emerging opportunities in healthcare, logistics and 
                                         chemicals value chain.">
                                     </app-mission-card>
                 </div>
-                
-                
 
-                <div fxFlex="49%">
+                <div fxFlex="49%" fxFlex.sm="49%" fxFlex.xs="100%">
                     <app-mission-card title="Mission"
                                 detail="Inspiring Africa.">
                 
@@ -46,7 +45,7 @@
               </div>
 
               <div class="card">
-                <app-mission-card title="Vision"
+                <app-mission-card title="Values"
                                 [items]= values>
                                     </app-mission-card>
               </div>
@@ -55,8 +54,8 @@
         </div>
 
 
-        <div class="history" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
-            <div fxFlex="90%">
+        <div class="history item" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+            <div fxFlex="85%">
                 <app-about-section-card title="Brief history"
                                         image="/assets/images/img/img4.png"
                                         detail="The flagship company – Nagode Industries, which started 
@@ -64,7 +63,8 @@
                                                 since grown into a diversified entity with about five dynamic 
                                                 and fast growing competent organizations. Each organization has 
                                                 developed into the market leader or one of the leading players 
-                                                in its own field.
+                                                in its own field. 
+
                                                 Incorporated in 1988, Afriglobal group has over time, expanded 
                                                 operations from Lagos to branches throughout Nigeria in Abuja, 
                                                 Kano, Aba and Onitsha, to effectively service its customers.
@@ -79,9 +79,102 @@
             </div>
         </div>
 
-        
 
+        <div class="business-approach item" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+            <div fxFlex="85%">
+                <app-about-section-card title="Business Approach"
+                                        image="/assets/images/img/img4.png"
+                                        detail="Afriglobal group businesses are focused on 
+                                        securing a robust selection of products for our clients. 
+                                        We do this by supporting our customers through thoroughly 
+                                        understanding their needs and desires, and providing 
+                                        tailored solutions based on their needs."
+                                        [inverse]=true
+                                        [button]=false
+                                        [items]=approach>
+
+                </app-about-section-card>
+            </div>
+        </div>
+
+        <div class="team item" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+            <div fxFlex="70%" fxFlex.sm="90%" fxFlex.xs="90%">
+                <div class="title">
+                    Our Team
+                </div>
+
+                <div fxLayout="column">
+                    <app-team name="Mr Maneesh Garg"
+                                image="/assets/images/img/team/img1.png"
+                                role="GROUP CHIEF EXECUTIVE OFFICER"
+                                position="EXECUTIVE DIRECTOR"
+                                about="Mr Maneesh Garg is a serial entrepreneur who has successfully 
+                                        transformed the Family business, Afriglobal Group from a trading 
+                                        and distribution company of raw chemicals and soft commodities to 
+                                        include other industries covering Healthcare, supply chain management 
+                                        and integrated logistics. He has a first degree in Politics, Philosophy 
+                                        and Economics at the University of Oxford, UK and a Master’s Degree in 
+                                        Economics at the North-Western University, US.">
+                                
+                    </app-team>
+
+                    <app-team name="Mr. Sandeep Kapoor"
+                                image="/assets/images/img/team/img2.png"
+                                role="GROUP EXECUTIVE DIRECTOR"
+                                position="EXECUTIVE DIRECTOR"
+                                about="Mr Sandeep Kapoor has over 29 years’ experience in 
+                                marketing and sales across consumer, industrial & services
+                                 businesses, including 5 years in East and West Africa. He 
+                                 has a B. Tech in Mechanical Engineering from IIT Delhi & MBA 
+                                 from IIM Ahmadabad. Currently, he serves as the Group Executive
+                                 Director.">
+                     </app-team>
+
+                     <app-team name="Mr Ayo Ajose-Adeogun"
+                                image="/assets/images/img/team/img3.png"
+                                role=""
+                                position="EXECUTIVE DIRECTOR"
+                                about="Mr Ayo Ajose-Adeogun is a qualified Chartered Engineer who has demonstrated advisory & line leadership and project delivery successes over the last twenty-five years working on three continents.
+                                He has over fifteen years of C-Level responsibility in the oil and gas industry prefaced by successful strategy executions in high street retail, new media and FMCG.
+                                He is currently the Chief Executive Officer of Oando Refinery & Terminals at Oando PLC. His earlier experience includes leadership and advisory roles in Cadbury Nigeria PLC, Marakon Associates in the UK, and John Brown Engineers & Constructors, UK.
+                                He obtained a Master’s degree in Chemical Engineering from Imperial College London, UK, in 1990, and an MBA from London Business School, UK, in 1997.">
+                     </app-team>
+
+
+                     <app-team name="Mr Tani Fafunwa"
+                                image="/assets/images/img/team/img4.png"
+                                role=""
+                                position="EXECUTIVE DIRECTOR"
+                                about="Mr Tani has over 20 years of Senior Management experience in the 
+                                Information Technology industry. After graduating with an MBA from Stanford 
+                                University he returned to Nigeria to lead the operations of Resourcery Ltd. 
+                                a small IT company selling computers. By focusing on changes in technology, 
+                                forging strategic partnerships with global technology leaders and attention 
+                                to customer’s needs, Resourcery Plc has become the premier systems’ integrator 
+                                in West Africa providing complete solutions to enterprise, service provider and 
+                                government clients
+                                Tani served on the industry advisory board to the Federal Minister of 
+                                Communications Technology between 2011 and 2015 as a member of Cisco Systems’ 
+                                Partner Operations Advisory Board (EMEA) and the Cisco Partner Executive Exchange.
+                                 He currently serves on the boards of Pagatech, Emel Corporate Solutions and 
+                                 Triversa">
+                     </app-team>
+                     
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="footer item">
+            <app-footer></app-footer>
+        </div>
 
 
     </div>
 </div>
+
+
+
+    

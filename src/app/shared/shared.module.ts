@@ -13,6 +13,7 @@ import { FootprintComponent } from './components/footprint/footprint.component';
 import { MaterialModule } from '../material/material.module';
 import { AboutSectionCardComponent } from './components/about-section-card/about-section-card.component';
 import { MissionCardComponent } from './components/mission-card/mission-card.component';
+import { TeamComponent } from './components/team/team.component';
 
 
 
@@ -26,7 +27,8 @@ import { MissionCardComponent } from './components/mission-card/mission-card.com
     BusinessUnitsComponent,
     FootprintComponent,
     AboutSectionCardComponent,
-    MissionCardComponent
+    MissionCardComponent,
+    TeamComponent
   ],
   imports: [
     CommonModule,
@@ -41,7 +43,8 @@ import { MissionCardComponent } from './components/mission-card/mission-card.com
     FooterComponent,
     HeaderComponent,
     AboutSectionCardComponent,
-    MissionCardComponent
+    MissionCardComponent,
+    TeamComponent
   ]
 })
 export class SharedModule { }

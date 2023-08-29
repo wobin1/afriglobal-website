@@ -1,15 +1,49 @@
 .section-layout {
     margin-top: 84px;
+    background-color: var(--bg-color1);
 }
 
 .section {
 
 }
 
-.who-we-are, .history {
+.who-we-are, .history, .business-approach {
     margin-top: 70px;
+    padding-top: var(--size7);
+    padding-bottom: var(--size7);
+}
+
+.business-approach {
+    background-color: white;
 }
 
 .mission-vision {
     margin-top: 70px;
+}
+
+.team {
+    background: #FFFEF6;
+}
+
+.title {
+    margin-top: 70px;
+    color: #000;
+    font-family: var(--font-family-regular);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.vision{
+    margin-bottom: 1rem;
+}
+
+
+
+@media(min-width: 450px){
+    .vision{
+        margin-bottom: 0px;
+    }
 }

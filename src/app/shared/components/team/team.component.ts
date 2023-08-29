@@ -2,18 +2,17 @@ import { Component, Input, Output } from '@angular/core';
 import { AnimateOnscrollService } from '../../services/on-scroll/animate-onscroll.service';
 
 @Component({
-  selector: 'app-about-section-card',
-  templateUrl: './about-section-card.component.html',
-  styleUrls: ['./about-section-card.component.css']
+  selector: 'app-team',
+  templateUrl: './team.component.html',
+  styleUrls: ['./team.component.css']
 })
-export class AboutSectionCardComponent {
-  @Input() title!:string;
-  @Input() detail!:string;
-  @Input() image!:string;
-  @Input() button!:boolean;
+export class TeamComponent {
+  @Input() name!:string;
+  @Input() role!:string;
+  @Input() position!:string;
+  @Input() about!:string;
   @Input() inverse!:boolean;
-  @Input() video!:boolean;
-  @Input() items!:Array<string>;
+  @Input() image!:string;
 
   constructor(public anim: AnimateOnscrollService){}
 
