@@ -10,6 +10,23 @@ export class RoutingService {
 
 
   route(page:string){
-    
+    if(page=='home'){
+      this.router.navigateByUrl('home')
+    }
+    if(page=='about'){
+      this.router.navigateByUrl('about')
+    }
+    if(page=='companies'){
+      this.router.navigateByUrl('companies')
+    }
+    if(page=='career'){
+      this.router.navigateByUrl('career')
+    }
+    if(page=='csr'){
+      this.router.navigateByUrl('csr')
+    }
+    if(page=='awards'){
+      this.router.navigateByUrl('awards')
+    }
   }
 }

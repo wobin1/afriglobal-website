@@ -10,7 +10,9 @@ const routes: Routes = [
   },
   {path:'', component: MainComponent, children:[
     {path:"", loadChildren: ()=> import('./views/home/home.module').then(m => m.HomeModule)},
-    {path:"", loadChildren: ()=> import('./views/about/about.module').then(m => m.AboutModule)}
+    {path:"", loadChildren: ()=> import('./views/about/about.module').then(m => m.AboutModule)},
+    {path:"", loadChildren: ()=> import('./views/career/career.module').then(m => m.CareerModule)},
+    {path:"", loadChildren: ()=> import('./views/csr/csr.module').then(m=> m.CsrModule)}
   ]},
 ];
 

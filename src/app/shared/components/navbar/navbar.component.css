@@ -27,3 +27,9 @@ nav:hover {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
 }
+
+/* .contact {
+    width: 2rem;
+    padding: 0.5rem;
+    background-color: var(--color4);
+} */
