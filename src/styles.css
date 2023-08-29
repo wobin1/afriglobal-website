@@ -9,8 +9,33 @@
     src: url('/assets/fonts/poppins/Poppins-bold.ttf');
 }
 
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+
+
+
+@keyframes fade {
+	0% {
+        position: relative;
+        opacity: 0;
+        bottom: -20px;
+	}
+	50% {
+        position: relative;
+        opacity: 1;
+        bottom: 0px;
+	}
+}
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0 auto; font-family: Roboto, "Helvetica Neue", sans-serif; width: min(100%, 1600px); }
 
 
 :root {
@@ -55,3 +80,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 }
 
+.item {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.show {
+    opacity: 1;
+    animation-duration: 1.5s;
+    animation-iteration-count: inherit;
+    animation-name: fade;
+}

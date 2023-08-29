@@ -36,7 +36,9 @@
         <div class="awards">
             <app-two-section-card title={{award.year}}
                                     detail={{award.detail}}
-                                    image={{award.image}}>
+                                    image={{award.image}}
+                                    [button]="true"
+                                    [inverse]="false">
             </app-two-section-card>
         </div>
         <span class="prev" fxShow fxHide.sm fxHide.xs  (click)="prev()">

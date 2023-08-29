@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AnimateOnscrollService } from 'src/app/shared/services/on-scroll/animate-onscroll.service';
 
 @Component({
   selector: 'app-awards',
@@ -48,9 +49,6 @@ export class AwardsComponent {
   ]
 
   award=this.awards[this.index]
-
-  ngOnInit(){}
-
   next(){
     if(this.index >= 7){
       this.index=0;

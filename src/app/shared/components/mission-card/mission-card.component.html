@@ -1,0 +1,21 @@
+<div
+  class="section-layout"
+  fxLayout="row"
+  fxFlex="100%"
+  fxLayoutAlign="center center"
+>
+  <div class="section" fxLayout="column" fxLayoutAlign="center center"  fxFlex="100%">
+        <div class="title">{{title}}</div>
+      <div class="detail mt-2">
+        <p>
+            {{detail}}
+        </p>
+        <ul  *ngFor="let item of items">
+            <li>{{item}}</li>
+        </ul>
+      </div>
+
+  </div>
+
+
+</div>

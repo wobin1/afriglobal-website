@@ -4,7 +4,8 @@ import { MainComponent } from './shared/layout/main/main.component';
 
 const routes: Routes = [
   {path:'', component: MainComponent, children:[
-    {path:"", loadChildren: ()=> import('./views/home/home.module').then(m => m.HomeModule)}
+    {path:"", loadChildren: ()=> import('./views/home/home.module').then(m => m.HomeModule)},
+    {path:"", loadChildren: ()=> import('./views/about/about.module').then(m => m.AboutModule)}
   ]},
 ];
 

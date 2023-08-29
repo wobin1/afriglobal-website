@@ -11,6 +11,8 @@ import { TwoSectionCardComponent } from './components/two-section-card/two-secti
 import { BusinessUnitsComponent } from './components/business-units/business-units.component';
 import { FootprintComponent } from './components/footprint/footprint.component';
 import { MaterialModule } from '../material/material.module';
+import { AboutSectionCardComponent } from './components/about-section-card/about-section-card.component';
+import { MissionCardComponent } from './components/mission-card/mission-card.component';
 
 
 
@@ -22,7 +24,9 @@ import { MaterialModule } from '../material/material.module';
     NavbarComponent,
     TwoSectionCardComponent,
     BusinessUnitsComponent,
-    FootprintComponent
+    FootprintComponent,
+    AboutSectionCardComponent,
+    MissionCardComponent
   ],
   imports: [
     CommonModule,
@@ -34,7 +38,10 @@ import { MaterialModule } from '../material/material.module';
     TwoSectionCardComponent,
     BusinessUnitsComponent,
     FootprintComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent,
+    AboutSectionCardComponent,
+    MissionCardComponent
   ]
 })
 export class SharedModule { }

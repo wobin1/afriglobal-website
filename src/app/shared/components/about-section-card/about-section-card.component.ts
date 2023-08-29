@@ -1,12 +1,12 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 import { AnimateOnscrollService } from '../../services/on-scroll/animate-onscroll.service';
 
 @Component({
-  selector: 'app-two-section-card',
-  templateUrl: './two-section-card.component.html',
-  styleUrls: ['./two-section-card.component.css']
+  selector: 'app-about-section-card',
+  templateUrl: './about-section-card.component.html',
+  styleUrls: ['./about-section-card.component.css']
 })
-export class TwoSectionCardComponent {
+export class AboutSectionCardComponent {
   @Input() title!:string;
   @Input() detail!:string;
   @Input() image!:string;
