@@ -18,3 +18,10 @@
     line-height: 1.5rem;
     letter-spacing: 0.9px;
 }
+
+.unit {
+    margin-bottom: 3rem;
+    box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.30);
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
+}

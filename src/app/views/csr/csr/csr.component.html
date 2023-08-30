@@ -18,7 +18,7 @@
         fxFlex="80%"
         fxFlex.sm="90%"
         fxFlex.xs="95%"
-        fxLayoutGap="2%"
+        fxLayoutGap="0.5rem"
       >
 
       <div class="heading">
@@ -48,7 +48,7 @@
       </div>
 
 
-        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+        <div class="unit" fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
           <app-two-section-card
             title="Poverty Alleviation Schemes"
             detail="We are committed to equiping willing Nigerians with
@@ -64,7 +64,7 @@
           </app-two-section-card>
         </div>
 
-        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+        <div class="unit" fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
           <app-two-section-card
             title="Childhood Cancer Awareness"
             detail="Prevention and Treatment Schemes – We are at the forefront of 
@@ -79,7 +79,7 @@
           </app-two-section-card>
         </div>
 
-        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+        <div class="unit" fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
           <app-two-section-card
             title="Women Empowerment Schemes"
             detail="We are passionate about helping illiterate and widowed women gain 
@@ -92,51 +92,38 @@
           >
           </app-two-section-card>
         </div>
+
+        <div class="unit" fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+            <app-two-section-card
+              title="Youth Empowerment Schemes"
+              detail="The youth are the power engine of Africa, hence we believe in providing 
+                          necessary assistance to see that they are gainfully engaged in skills acquisition, 
+                          business training and sporting activities which will in turn provide financial rewards."
+              image="/assets/images/img/csr/csr4.jpg"
+              [button]="false"
+              [inverse]="false"
+              [others]="true"
+            >
+            </app-two-section-card>
+          </div>
+  
+          <div class="unit" fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+            <app-two-section-card
+              title="African Achievers Award"
+              detail="Excellence Recognition amongst young achievers to inspire 
+                          greater achievements amongst young Nigerians."
+              image="/assets/images/img/csr/csr5.jpg"
+              [button]="false"
+              [inverse]="false"
+              [others]="true"
+            >
+            </app-two-section-card>
+          </div>
+
       </div>
     </div>
 
-    <div
-      class="card"
-      fxLayout="row"
-      fxFlex="100%"
-      fxLayoutAlign="center center"
-    >
-      <div
-        class="card-section"
-        fxLayout="row wrap"
-        fxFlex="80%"
-        fxFlex.sm="90%"
-        fxFlex.xs="95%"
-        fxLayoutGap="2%"
-      >
-        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
-          <app-two-section-card
-            title="Youth Empowerment Schemes"
-            detail="The youth are the power engine of Africa, hence we believe in providing 
-                        necessary assistance to see that they are gainfully engaged in skills acquisition, 
-                        business training and sporting activities which will in turn provide financial rewards."
-            image="/assets/images/img/csr/csr4.jpg"
-            [button]="false"
-            [inverse]="false"
-            [others]="true"
-          >
-          </app-two-section-card>
-        </div>
 
-        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
-          <app-two-section-card
-            title="African Achievers Award"
-            detail="Excellence Recognition amongst young achievers to inspire 
-                        greater achievements amongst young Nigerians."
-            image="/assets/images/img/csr/csr5.jpg"
-            [button]="false"
-            [inverse]="false"
-            [others]="true"
-          >
-          </app-two-section-card>
-        </div>
-      </div>
-    </div>
 
     <div class="footer">
       <app-footer></app-footer>
