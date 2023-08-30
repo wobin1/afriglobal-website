@@ -12,6 +12,7 @@ export class TwoSectionCardComponent {
   @Input() image!:string;
   @Input() button!:boolean;
   @Input() inverse!:boolean;
+  @Input() others!:boolean;
 
   constructor(public anim: AnimateOnscrollService){}
 

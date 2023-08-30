@@ -1,5 +1,157 @@
 <div class="section-layout">
-    <div class="section">
-        <app-header page="CSR"></app-header>
+  <div class="section" fxLayout="column" fxFlex="100%">
+    <div class="hero">
+      <app-header page="Cooperate Social responsibility"></app-header>
     </div>
+
+
+
+    <div
+      class="card"
+      fxLayout="row"
+      fxFlex="100%"
+      fxLayoutAlign="center center"
+    >
+      <div
+        class="card-section"
+        fxLayout="row wrap"
+        fxFlex="80%"
+        fxFlex.sm="90%"
+        fxFlex.xs="95%"
+        fxLayoutGap="2%"
+      >
+
+      <div class="heading">
+        <p>
+          At <strong>Afriglobal Group</strong>, our CSR activities are guided by our vision which
+          is to “inspire Africa”. Through our CSR activities, we work to advance
+          our corporate citizenship, build relationships of mutual trust with
+          stake holders and aim for sustainable growth.
+        </p>
+  
+        <p>
+          Through its foundation – Nagode Foundation, Afriglobal Group is actively
+          involved in several socio-economic projects that positively affect the
+          lives of African people. We believe in giving back to the communities in
+          whom we have become who are thereby staying true to our values.
+        </p>
+  
+        <p>
+          Every year we commit some percentages of our profit solely to execute
+          worthy projects that will leave a lasting impact in the lives of people.
+        </p>
+  
+        <p>
+          Major activities financed by our Corporate Social Responsibility (CSR)
+          team include:
+        </p>
+      </div>
+
+
+        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+          <app-two-section-card
+            title="Poverty Alleviation Schemes"
+            detail="We are committed to equiping willing Nigerians with
+                        the necessary skills training and financial assistance to 
+                        help start-up businesses which will provide steady sources 
+                        of income thereby reducing poverty and lack among the 
+                        Nigerian community."
+            image="/assets/images/img/csr/csr1.jpg"
+            [button]="false"
+            [inverse]="false"
+            [others]="true"
+          >
+          </app-two-section-card>
+        </div>
+
+        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+          <app-two-section-card
+            title="Childhood Cancer Awareness"
+            detail="Prevention and Treatment Schemes – We are at the forefront of 
+                                raising awareness for Childhood cancer cases in Nigeria to help 
+                                increase the survival rate from its current low to meet 
+                                international standards in Europe and America."
+            image="/assets/images/img/csr/csr2.jpg"
+            [button]="false"
+            [inverse]="false"
+            [others]="true"
+          >
+          </app-two-section-card>
+        </div>
+
+        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+          <app-two-section-card
+            title="Women Empowerment Schemes"
+            detail="We are passionate about helping illiterate and widowed women gain 
+                            skills for businesses and financial assistance to start up small 
+                            businesses which can cater for their families."
+            image="/assets/images/img/csr/csr3.jpg"
+            [button]="false"
+            [inverse]="false"
+            [others]="true"
+          >
+          </app-two-section-card>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card"
+      fxLayout="row"
+      fxFlex="100%"
+      fxLayoutAlign="center center"
+    >
+      <div
+        class="card-section"
+        fxLayout="row wrap"
+        fxFlex="80%"
+        fxFlex.sm="90%"
+        fxFlex.xs="95%"
+        fxLayoutGap="2%"
+      >
+        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+          <app-two-section-card
+            title="Youth Empowerment Schemes"
+            detail="The youth are the power engine of Africa, hence we believe in providing 
+                        necessary assistance to see that they are gainfully engaged in skills acquisition, 
+                        business training and sporting activities which will in turn provide financial rewards."
+            image="/assets/images/img/csr/csr4.jpg"
+            [button]="false"
+            [inverse]="false"
+            [others]="true"
+          >
+          </app-two-section-card>
+        </div>
+
+        <div fxFlex="32%" fxFlex.sm="100%" fxFlex.xs="100%">
+          <app-two-section-card
+            title="African Achievers Award"
+            detail="Excellence Recognition amongst young achievers to inspire 
+                        greater achievements amongst young Nigerians."
+            image="/assets/images/img/csr/csr5.jpg"
+            [button]="false"
+            [inverse]="false"
+            [others]="true"
+          >
+          </app-two-section-card>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <app-footer></app-footer>
+    </div>
+  </div>
 </div>
+
+<!-- <app-two-section-card title="Poverty Alleviation Schemes"
+                            detail="We are committed to equiping willing Nigerians with
+                             the necessary skills training and financial assistance to 
+                             help start-up businesses which will provide steady sources 
+                             of income thereby reducing poverty and lack among the 
+                             Nigerian community."
+                            image="/assets/images/img/csr/csr1.jpg"
+                            [button]=false
+                            [inverse]=false
+                            [others]=true>
+        </app-two-section-card> -->

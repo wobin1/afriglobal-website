@@ -136,7 +136,7 @@
 }
 
 
-@media(min-width:450%){
+@media(min-width:450px){
     .form-section {
         padding: 60px;
         padding-right: 100px;
