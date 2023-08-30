@@ -12,7 +12,10 @@ const routes: Routes = [
     {path:"", loadChildren: ()=> import('./views/home/home.module').then(m => m.HomeModule)},
     {path:"", loadChildren: ()=> import('./views/about/about.module').then(m => m.AboutModule)},
     {path:"", loadChildren: ()=> import('./views/career/career.module').then(m => m.CareerModule)},
-    {path:"", loadChildren: ()=> import('./views/csr/csr.module').then(m=> m.CsrModule)}
+    {path:"", loadChildren: ()=> import('./views/companies/companies.module').then(m => m.CompaniesModule)},
+    {path:"", loadChildren: ()=> import('./views/csr/csr.module').then(m=> m.CsrModule)},
+    {path:"", loadChildren: ()=> import('./views/awards/awards.module').then(m=> m.AwardsModule)},
+    {path:"", loadChildren: ()=> import('./views/contact/contact.module').then(m => m.ContactModule)}
   ]},
 ];
 

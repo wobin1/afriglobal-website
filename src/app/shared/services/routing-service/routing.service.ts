@@ -28,5 +28,8 @@ export class RoutingService {
     if(page=='awards'){
       this.router.navigateByUrl('awards')
     }
+    if(page=='contact'){
+      this.router.navigateByUrl('contact')
+    }
   }
 }

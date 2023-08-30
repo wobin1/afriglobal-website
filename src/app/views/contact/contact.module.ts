@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { AwardsRoutingModule } from './awards-routing.module';
-import { AwardsComponent } from './awards/awards.component';
+import { ContactRoutingModule } from './contact-routing.module';
+import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from "../../shared/shared.module";
 
 
 @NgModule({
     declarations: [
-        AwardsComponent
+        ContactComponent
     ],
     imports: [
         CommonModule,
-        AwardsRoutingModule,
+        ContactRoutingModule,
         SharedModule
     ]
 })
-export class AwardsModule { }
+export class ContactModule { }
