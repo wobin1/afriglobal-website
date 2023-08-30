@@ -4,3 +4,135 @@
 .section-layout {
     margin-top: 84px;
 }
+
+.contact {
+    margin-top: 70px;
+
+    
+}
+
+.form-section {
+    padding: 60px;
+    padding-right: 100px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.30);
+}
+
+.title {
+    color: var(--black, #000);
+    font-family: var(--font-family-regular);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title .touch {
+    color: #DD5471;
+    font-family: var(--font-family-regular);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detail {
+    margin-top: 0.2rem;
+    color: #000;
+    font-family: var(--font-family-regular);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.14px;
+}
+
+.input {
+    border: 1px solid var(--gray-5, #E0E0E0);
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.input input, .input textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    padding: 0.6rem;
+    background: #DD5471;
+    color: var(--white, #FFF);
+    font-family: var(--font-family-regular);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:active {
+    opacity: 0.9;
+    transform: scale(0.98);
+}
+
+
+.contact-details {
+    margin-top: 40px;
+}
+
+.address {
+    margin-top: 1.5rem;
+}
+
+.phone, .email, .address {
+    color: var(--black, #000);
+    font-family: var(--font-family-regular);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.26px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--btn-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: #DD5471;
+    font-family: var(--font-family-regular);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.46px;
+}
+
+
+.map-section {
+    background: #183A4A;
+}
+
+.contact-section {
+    position: relative;
+}
+
+.map {
+    margin-top: 100px;
+    right: 10rem;
+}
+
+

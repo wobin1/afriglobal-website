@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ContactRoutingModule } from './contact-routing.module';
 import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from "../../shared/shared.module";
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SharedModule } from "../../shared/shared.module";
     imports: [
         CommonModule,
         ContactRoutingModule,
-        SharedModule
+        SharedModule,
+        FlexLayoutModule
     ]
 })
 export class ContactModule { }
