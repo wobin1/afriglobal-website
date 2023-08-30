@@ -1,3 +1,12 @@
 .section-layout {
     margin-top: 84px;
 }
+
+.card-section {
+    margin-top: 40px;
+    margin-bottom: 1rem;
+}
+
+.unit {
+    margin-bottom: 5rem;
+}

@@ -41,9 +41,15 @@
 
   <div *ngIf="others && !inverse" class="section " fxLayout="row wrap" fxFlex="100%" fxLayoutGap="10%" fxLayoutGap.xs="0%" >
     <div class="image-section" fxLayout="row" fxFlex="100%" fxFlex.sm="100%" fxFlex.xs="100%" >
-      <div class="image ">
+      
+      <div class="image" *ngIf="!logo">
         <img loading="lazy" src={{image}} alt="" />
       </div>
+
+      <div class="logo" *ngIf="logo">
+        <img loading="lazy" src={{image}} alt="" />
+      </div>
+
     </div>
     <div class="detail-section" fxFlex="100%" fxFlex.sm="100%" fxFlex.xs="100%">
         <div class="title">{{title}}</div>

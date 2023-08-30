@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { CompaniesRoutingModule } from './companies-routing.module';
 import { CompanyComponent } from './company/company.component';
 import { SharedModule } from "../../shared/shared.module";
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SharedModule } from "../../shared/shared.module";
     imports: [
         CommonModule,
         CompaniesRoutingModule,
-        SharedModule
+        SharedModule,
+        FlexLayoutModule
     ]
 })
 export class CompaniesModule { }
