@@ -5,6 +5,9 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class RoutingService {
+  navigate(arg0: string[]) {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(private router: Router) { }
 
@@ -31,5 +34,10 @@ export class RoutingService {
     if(page=='contact'){
       this.router.navigateByUrl('contact')
     }
+
+    window.location.reload()
+    
   }
+
+  
 }
