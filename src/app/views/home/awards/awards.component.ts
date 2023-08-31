@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AnimateOnscrollService } from 'src/app/shared/services/on-scroll/animate-onscroll.service';
+import { RoutingService } from 'src/app/shared/services/routing-service/routing.service';
 
 @Component({
   selector: 'app-awards',
@@ -49,6 +50,11 @@ export class AwardsComponent {
   ]
 
   award=this.awards[this.index]
+
+
+  constructor(private router: RoutingService){}
+
+
   next(){
     if(this.index >= 7){
       this.index=0;
@@ -68,6 +74,10 @@ export class AwardsComponent {
       this.award=this.awards[this.index]
 
     }
+  }
+
+  route(page:string){
+    this.router.route(page)
   }
 
 }

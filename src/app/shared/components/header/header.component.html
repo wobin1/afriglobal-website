@@ -13,7 +13,8 @@
     <div fxFlex="30%" fxLayout="row" fxLayoutAlign="center center">
         <div class="content " fxLayout="column" fxLayoutAlign="center center">
             <div class="page">{{page}}</div>
-            <div class="action-button">Contact Us</div>
+            <div *ngIf="!contact" class="action-button" (click)="route('contact')">Contact Us</div>
+            <div *ngIf="contact" class="action-button" (click)="route('home')">Home Page</div>
         </div>
     </div>
 </div>

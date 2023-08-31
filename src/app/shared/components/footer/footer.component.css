@@ -103,6 +103,11 @@ input {
     border: none;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media(min-width:450px){
     .footer-base {
         height: 54px;

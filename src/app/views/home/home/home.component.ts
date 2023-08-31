@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AnimateOnscrollService } from 'src/app/shared/services/on-scroll/animate-onscroll.service';
+import { RoutingService } from 'src/app/shared/services/routing-service/routing.service';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,7 @@ import { AnimateOnscrollService } from 'src/app/shared/services/on-scroll/animat
 })
 export class HomeComponent {
 
-  constructor(public anim: AnimateOnscrollService){}
+  constructor(public anim: AnimateOnscrollService, private router: RoutingService){}
 
   ngOnInit(){
     this.scroll(".item", "show")
@@ -16,6 +17,10 @@ export class HomeComponent {
 
   scroll(target:string, style:string){
     this.anim.animateOnScroll(target, style)
+  }
+
+  route(page:string){
+    this.router.route(page)
   }
 
 }

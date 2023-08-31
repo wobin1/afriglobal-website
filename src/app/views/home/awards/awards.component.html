@@ -38,7 +38,9 @@
                                     detail={{award.detail}}
                                     image={{award.image}}
                                     [button]="true"
-                                    [inverse]="false">
+                                    [inverse]="false"
+                                    (btnClick)="route('awards')"
+                                    >
             </app-two-section-card>
         </div>
         <span class="prev" fxShow fxHide.sm fxHide.xs  (click)="prev()">

@@ -14,11 +14,19 @@ export class TwoSectionCardComponent {
   @Input() inverse!:boolean;
   @Input() others!:boolean;
   @Input() logo!:boolean;
+  @Input() companyLink!:string;
+  @Input() page!:string;
+
+  @Output() btnClick= new EventEmitter()
 
   constructor(public anim: AnimateOnscrollService){}
 
   ngOnInit(){
     this.scroll(".item", "show")
+  }
+
+  onClick(){
+    this.btnClick.emit()
   }
 
   scroll(target:string, style:string){

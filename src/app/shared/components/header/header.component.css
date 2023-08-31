@@ -51,6 +51,7 @@ img {
     border-radius: 15px;
     background: #07236B;
     padding: 0.4rem 1rem 0.4rem 1rem;
+    cursor: pointer;
 
 
     color: #FFF;

@@ -63,3 +63,8 @@ img {
     transform: scale(0.95);
     transition: opacity 0.5s;
 }
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

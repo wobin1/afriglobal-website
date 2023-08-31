@@ -17,7 +17,7 @@
             {{detail}}
         </p>
       </div>
-      <div class="button" *ngIf="button">Learn More</div>
+      <div class="button" *ngIf="button" (click)="onClick()">Learn More</div>
     </div>
   </div>
 
@@ -34,7 +34,7 @@
             {{detail}}
         </p>
       </div>
-      <div class="button" *ngIf="button">Learn More</div>
+      <div class="button" *ngIf="button" (click)="onClick()">Learn More</div>
     </div>
   </div>
 
@@ -58,7 +58,7 @@
             {{detail}}
         </p>
       </div>
-      <div class="button" *ngIf="button">Learn More</div>
+      <div class="button" *ngIf="button"><a href={{companyLink}} target="_blank">Learn More</a></div>
     </div>
   </div>
 
