@@ -35,7 +35,6 @@ export class RoutingService {
       this.router.navigateByUrl('contact')
     }
 
-    window.location.reload()
     
   }
 

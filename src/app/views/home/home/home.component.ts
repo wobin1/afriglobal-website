@@ -13,6 +13,7 @@ export class HomeComponent {
 
   ngOnInit(){
     this.scroll(".item", "show")
+    
   }
 
   scroll(target:string, style:string){
