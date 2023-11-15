@@ -23,7 +23,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     RouterModule,
     // SharedModule
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

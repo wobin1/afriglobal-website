@@ -14,7 +14,7 @@ export class RoutingService {
 
   route(page:string){
     if(page=='home'){
-      this.router.navigateByUrl('home')
+      this.router.navigateByUrl('')
     }
     if(page=='about'){
       this.router.navigateByUrl('about')
