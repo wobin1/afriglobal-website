@@ -21,8 +21,7 @@ export class ServerRequestService {
     }
  
     getToken(){
-     this.token = this.store.getStoredData('mtlToken')
-       
+     this.token = this.store.getStoredData('mtlToken') 
    }
  
     pay(body:object):Observable<any>{

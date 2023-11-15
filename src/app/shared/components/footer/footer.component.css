@@ -20,15 +20,19 @@
 }
 
 p, nav {
-    color: var(--second-text-color, #FFF);
+    color: var(--second-text-color, #e1dede);
     /* link */
     font-family: var(--font-family-regular);
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 171.429% */
+    font-weight: 400;
+    line-height: 18px; /* 171.429% */
     letter-spacing: 1px;
     padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+p {
+    font-size: 14px;
 }
 
 .business-units {

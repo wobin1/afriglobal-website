@@ -55,6 +55,10 @@ img {
     line-height: normal;
 }
 
+.role {
+    text-transform: uppercase;
+}
+
 
 @media(min-width:550px){
    

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RoutingService } from 'src/app/shared/services/routing-service/routing.service';
 
 @Component({
   selector: 'app-hero',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
 
+  constructor(private router: RoutingService){}
+
+  ngOnInit(){}
+
+  route(page:string){
+    this.router.route(page)
+  }
 }

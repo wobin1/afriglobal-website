@@ -57,7 +57,10 @@ body { margin: 0 auto; font-family: Roboto, "Helvetica Neue", sans-serif; width:
     --size4: 32px;
     --size5: 40px;
     --size6: 48px;
-    --size7: 56px;
+    --size7: 64px;
+    --size8: 96px;
+    --size9: 128px;
+    --size10: 192px;
 
     --font-size: 12px;
     --font-size1: 14px;
