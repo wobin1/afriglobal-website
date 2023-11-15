@@ -68,3 +68,9 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
+
+.learn-more-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
